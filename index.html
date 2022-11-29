@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- La navigation -->
+    <div class="container">
+    <div class="home">
+        <!-- La navigation -->
     <header class="header">
         <h2 class="logo"><a href="">Nitro</a><span class="point">.</span></h2>
         <div class="menu navbar">
             <a href="#" class="navlink active">Home</a>
-            <a href="#" class="navlink">About Us <span class="fleche">></span> 
-                <ul>
-                    <li>Team</li>
-                    <li>Pricing</li>
-                    <li>Faq</li>
-                    <li>More Links</li>
-               </ul></a>
+            <div class="dropdown__">
+                <div class="head"><a href="#">About Us<span class="fleche">></span></a></div>
+                <ul class="dropdown__list__">
+                    <li class="dropdown__item__">Team</li>
+                    <li class="dropdown__item__">Pricing</li>
+                    <li class="dropdown__item__">FAQ</li>
+                    <li class="dropdown__item__">More Links</li>
+                </ul>
+            </div>
             <a href="#" class="navlink">Portfolio</a>
             <a href="#" class="navlink">Services</a>
             <a href="#" class="navlink">Testimonials</a>
@@ -27,5 +31,64 @@
             <a href="#" class="navlink">Contact</a>
         </div>
     </header>
+    <div class="textes_home">
+        <h1 class="titre">WELCOME</h1>
+        <p class="paragraphe_home">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error
+        </p>
+        <button class="btn btn-primary">Get in Touch</button>
+        <a href="#about-section" class="mouse smoothscroll">
+            <span class="mouse-icon">
+                <span class="mouse-wheel"></span>
+            </span>
+
+        </a>
+    </div>
+    </div>
+    <!--End Home Section -->
+
+    <!--Start About Section-->
+    <div class="about-section">
+        <h1 class="about_title">About Us</h1>
+        <div class="container-img_text">
+            <img class="img_about" src="./images/hero_1.jpg" alt="">
+        <div class="paragraphes_about">
+            <h3 class="paragraphes_about_titre">For the next great business</h3>
+            <p class="paragraphe">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span>Quo tempora cumque eligendi in nostrum labore omnis quaerat.</span>
+            </p>
+            <ul class="ma-liste">
+                <li class="mon-li">Officia quaerat eaque neque</li>
+                <li class="mon-li">Possimus aut consequuntur incidunt</li>
+                <li class="mon-li">Lorem ipsum dolor sit amet</li>
+                <li class="mon-li">Consectetur adipisicing elit</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <!--End About Section-->
+    <!--Start About Features-->
+    <div class="features">
+        <h2 class="features-title">Our Features</h2>
+        <p class="p0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.
+        </p>
+        <div class="features-imgs-text">
+            <img class="feature-img"  src="images/slide_1.jpg" alt="">
+            <div class="description_img">
+                <h2 class="descript-title">Minimal and Modern Design</h2>
+                <div class="mes_paragraphes">
+                    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="p2">Est qui eos quasi ratione nostrum excepturi id recusandae fugit
+                     omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                </div>
+                <button class="btn btn-primary btn-feature">Learn More</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
